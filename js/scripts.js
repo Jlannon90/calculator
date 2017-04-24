@@ -34,13 +34,13 @@
 //
 // alert(fToC(100));
 //
-// -- PROMPT USER FOR FAVORITES AND RETURN STRING
-//
+//PROMPT USER FOR FAVORITES AND RETURN STRING
+// 
 // var yourAge = prompt("What is your age?");
 // var yourName = prompt("What is your name?");
 // var yourFood = prompt("What is your food?");
 //
-// var userInfo = function(age, name, food) {
+// var userInfo = function(name, age, food) {
 //   alert("Your silly name is " + name + " You are a geezer at " + age + " " + food + " is overrated...");
 // };
 //
@@ -55,4 +55,13 @@
 // };
 //
 // alert(calcBMI(yourWeight, yourHeight));
+
+// -- COOKING CONVERSION
 //
+// var calcGtoL = prompt("How many gallons do you want to convert?");
+//
+// var galToLiters = function (gal, liter) {
+//   return calcGtoL * 3.78;
+// };
+//
+// alert(galToLiters(calcGtoL));
